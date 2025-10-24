@@ -39,18 +39,15 @@ class _NotificationPageState extends State<NotificationPage> {
         ),
         elevation: 0,
         actions: [
-          // 🔍 Magnifying glass icon (no function)
+        
           IconButton(
             icon: const Icon(Icons.search),
             onPressed: () {
-              // No functionality yet
             },
           ),
-          // ⋮ Three dots menu (no function)
           IconButton(
             icon: const Icon(Icons.more_vert),
-            onPressed: () {
-              // No functionality yet
+            onPressed: () { 
             },
           ),
         ],
@@ -86,11 +83,9 @@ class _NotificationPageState extends State<NotificationPage> {
                     trailing: IconButton(
                       icon: const Icon(Icons.more_horiz),
                       onPressed: () {
-                        // No functionality yet
                       },
                     ),
                     onTap: () {
-                      // No functionality yet
                     },
                   ),
                 );
